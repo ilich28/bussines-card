@@ -231,10 +231,64 @@ h1, h2, h3, h4, h5, h6 {
 
 .img-slider img {
   max-width: 100%;
+  margin: auto;
 }
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
   color: #cc9fb5;
   size: 100px;
+}
+
+.line {
+  width: 100%;
+  background-color: #000;
+  height: 3px;
+}
+
+.wrapper_footer {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  background-color: #2b2b2b;
+  position: relative;
+}
+
+.footer_content {
+  max-width: 1230px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Contact {
+  padding: 0px 20px;
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+}
+
+.Contacts img {
+  padding-bottom: 10px;
+  width: 20px;
+}
+
+.Contacts a {
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 12px;
+  margin: 0px 0px 0px 20px;
+}
+
+.laws {
+  color: #fff;
+  font-size: 10px;
+  bottom: 0;
+}
+
+.law {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }

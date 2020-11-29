@@ -19,5 +19,14 @@ new Swiper('.swiper-container', {
     delay: 3000,
     disableOnInteraction:false,    
   },
-
+   hashNavigation: {
+    whatchState: true,
+  },
+  slidesPerView:2, 
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
 });
+
+ 
