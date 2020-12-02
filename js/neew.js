@@ -3,6 +3,9 @@ $(document).ready(function(){
     $('.header_burger,.header_menu').toggleClass('active');
     $('.Background').toggleClass('lock');
   });
+  $('.Block_Work_Title').click(function(event) {
+    $('.Block_Work_list,.Block_Work_list2').toggleClass('active');
+  });
 });
 new Swiper('.swiper-container', {
   navigation: {
@@ -28,5 +31,3 @@ new Swiper('.swiper-container', {
     onlyInViewport: false,
   },
 });
-
- 
